@@ -173,7 +173,7 @@
 	}
 
 	a {
-		color: #d52349;
+		color: #ff5555;
 		text-decoration: underline;
 
 		&:hover {
@@ -426,7 +426,7 @@
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #d52349;
+		background: #ff5555;
 		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
@@ -436,7 +436,7 @@
 		@include vendor('transition', 'background-color .25s ease-in-out');
 
 		&:hover {
-			background: #e53359;
+			background: #ff5555;
 		}
 
 		&:active {
@@ -610,7 +610,7 @@
 			position: absolute;
 			left: 0;
 			top: 1.3em;
-			background-color: #d52349;
+			background-color: #ff5555;
 			height: 3.5em;
 			text-align: center;
 			color: #fff;
@@ -624,7 +624,7 @@
 				position: absolute;
 				bottom: 0;
 				right: -1.2em;
-				border-left: solid 1.25em #d52349;
+				border-left: solid 1.25em #ff5555;
 				border-top: solid 1.8em transparent;
 				border-bottom: solid 1.8em transparent;
 			}
@@ -786,7 +786,7 @@
 		&.featured {
 			position: relative;
 			display: inline-block;
-			background-color: #d52349;
+			background-color: #ff5555;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -805,7 +805,7 @@
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #d52349;
+				border-top: solid 2em #ff5555;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
@@ -888,7 +888,7 @@
 
 				&.current {
 					> a {
-						background: #d52349;
+						background: #ff5555;
 						color: #fff !important;
 						font-weight: 700;
 					}
@@ -970,7 +970,7 @@
 			}
 
 			p {
-				color: #d52349;
+				color: #ff5555;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
